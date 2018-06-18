@@ -1,0 +1,15 @@
+.swiper-container {
+    background:#DDDDDD;
+    width: 100%;
+    height: 60px;
+} 
+.calendar{
+	background:#ffffff;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.textf{
+	color: #CCCCCC;
+	font-size: 12px;
+}

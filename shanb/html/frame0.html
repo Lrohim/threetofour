@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="../css/api.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/jquery.mobile.min.css"/>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <script src="../script/swiper.min.js"></script>
+    <script src="../script/jquery-2.1.4.min.js"></script>
+    <script src="../script/jquery.mobile.min.js"></script>
+    
+    <script type="text/javascript">
+		$(document).ready(function(){
+			var mySwiper = new Swiper('.swiper-container', {
+				autoplay: true,
+			})
+		
+		$("#wrong").click(function(){
+  				alert("该模块正在开发");
+  			});
+  			});
+		</script>
+    <style>
+        .empty{ text-align: center; padding: 120px 0; }
+         .swiper-container {
+    		background:#DDDDDD;
+    		width: 100%;
+    		height: 60px;
+			} 
+		.calendar{
+			background:#ffffff;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+		}
+		.textf{
+		    color: #CCCCCC;
+		    font-size: 12px;
+		}
+		
+    </style>
+</head>
+
+<body>
+	<div>
+		<div class="swiper-container">
+  			<div class="swiper-wrapper">
+    			<div class="swiper-slide"><img src="../image/0_1.png" width="100%"/></div>
+    			<div class="swiper-slide"><img src="../image/0_2.png" width="100%"/></div>
+    			<div class="swiper-slide"><img src="../image/0_1.png" width="100%"/></div>
+  			</div>
+		</div>
+		<div class="calendar">
+			<a href="frame0_2.html"><img src="../image/0_3.png" width="50%"/></a>
+			<p class="textf">打卡天数</p>
+			<hr style="height:2px;border:none;border-top:2px solid #F5F5F0;margin: 30px 15px 5px;" />
+			<a href="frame0_1.html"><img src="../image/0_4.png" width="100%"/></a>
+			<a href="frame0_0.html"	data-role="button" style="margin: 5px 120px 30px;background: #6AB494;color: #FFFFFF;border:0px solid;border-radius:25px;font-size:15px;font-weight:normal;">开始学习</a>
+			<img src="../image/0_5.jpg" width="100%" id="wrong"/>
+		</div>
+	</div>
+</body>
+</html>
